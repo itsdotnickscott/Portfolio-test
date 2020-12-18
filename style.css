@@ -5,12 +5,12 @@
 }
 
 /* center header and footer */
-h1, header > h3, footer > p {
+h1, article > h3, footer > p, h6 {
 	text-align: center;
 }
 
 /* this is specifically for the header */
-h1, header > h3 {
+h1, article > h3, h6 {
 	font-family: advent-pro, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
 	font-style: normal;
 	font-weight: 400;
