@@ -1,0 +1,76 @@
+/* CSS Document */
+
+* {
+	text-align: left;
+}
+
+/* center header and footer */
+h1, header > h3, footer > p {
+	text-align: center;
+}
+
+/* this is specifically for the header */
+h1, header > h3 {
+	font-family: advent-pro, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+
+h1 {
+	margin-bottom: -15px; /* this was done in order to make the "Software Developer" text closer to my name */
+}
+
+h2, section > h3 {
+	font-family: abril-fatface, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+section > h3 {
+	font-size: 30px;
+}
+
+section > div {
+	height: 100% /* snap to content */
+}
+
+p, li {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+p, h2 {
+	padding: 0px 30px;
+}
+
+footer > p {
+	font-size: 14px;
+	color: gray;
+}
+
+section {
+	width: 850px;
+	margin: auto; /* this will auto-center the sections horizontally on the screen */
+}
+
+body {
+	background: linear-gradient(lightcyan, white)
+}
+
+img {
+	border-radius: 50%;
+}
+
+hr {
+	margin: 20px;
+}
+
+a:link { color: darkcyan; }
+a:visited { color: darkorchid; }
+a:hover { color: cyan; }
+a:active { color: pink; }
